@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class StringGenerator {
-
+	//after refactor
 	public static List<String> GeneratePattern(char movingChar, char fixedChar, int length) {
 		List<String> stringList = new ArrayList<String>();
 		for (int i = 0; i < length; i++) {
